@@ -1,42 +1,78 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body{
     position: relative;
-
+    height: 100vh;
+    
 }
+
 header{
     position: sticky;
     background-image: linear-gradient(to top,#3B6275, #ABBEC2);
     color: white;
     padding: 20px;
     text-align: center;
+    
 }
+
 .topo{
     color: white;
     text-decoration: none;
     padding: 20px;
 }
+
 .T1{
     text-align: center;
-    padding: 60px;
-    margin: 60px;
+    height: 33vh; 
+    
+    font-family: "DM Serif Text", serif;
+    background-image: url("IMG_7352.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 10vw;
+    box-shadow: inset 46px 24px 26px rgba(0, 0, 0, 0.26);
 }
+
 .Mf{
     height: 200px;
     border-radius: 100%;
     position: absolute; 
-    
-    left: 60%;
-    transform: translate(-60px, -50%);
+    left: 65%;
+    transform: translate(-0px, -60%);
     
 }
-img{
+.T2{
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+    background-image: linear-gradient(to left, #28404d, white, #273f4b);
+    height: 100px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.63);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
     
+}
+.cursivo{
+    font-family: "Parisienne", cursive;
+    font-size: 50px;
     
+}
+.escrita{
+    background-color: rgba(0, 0, 0, 0.589); 
+    color: white;
+    max-width: 100vw;
+    height: 30.3vh;
+    padding: 13px;
+    font-size: 14px;
+    
+}
+
+.dois{
+    padding-top: 30px;
 }
