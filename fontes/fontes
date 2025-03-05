@@ -1,0 +1,12 @@
+linear-gradient(to top,#3B6275, #ABBEC2);
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+font-family: "DM Serif Text", serif;
+
+background-image: linear-gradient(to left, #28404d, white, #273f4b);
+
+#5889A1;
+
+44ADE1;

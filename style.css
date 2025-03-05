@@ -3,76 +3,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 * {
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
-
 }
 
-body{
-    position: relative;
-    height: 100vh;
-    
+html, body{
+    height: 100vh; 
+    width: 100vw;
+    font-family: "DM Serif Text", serif;
+    position: absolute;
 }
 
-header{
-    position: sticky;
+header {
     background-image: linear-gradient(to top,#3B6275, #ABBEC2);
-    color: white;
-    padding: 20px;
+    
     text-align: center;
+    padding: 15px;
     
 }
 
-.topo{
-    color: white;
-    text-decoration: none;
-    padding: 20px;
+.link img:hover{
+    
+    
+    transform: translate(-2px, -3px);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.616);
+    transition: transform 0.5s;
+    color: #ABBEC2;
+}
+.link img{
+        border-radius: 10px;
+        background-size: cover;
+        margin: 10px;
+        
+        
+        
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.627);
+        box-sizing: border-box;
 }
 
-.T1{
-    text-align: center;
-    height: 33vh; 
+.p1 {
     
-    font-family: "DM Serif Text", serif;
-    background-image: url("IMG_7352.jpg");
-    background-attachment: fixed;
+    background-image: url(IMG_7218.jpg);
     background-size: cover;
-    font-size: 10vw;
-    box-shadow: inset 46px 24px 26px rgba(0, 0, 0, 0.26);
+    background-position: top center;
+    height: 200px;
+    text-align: center;
+}
+.blur {
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 200px;
+    color: white;
+    font-size: 20px;
 }
 
-.Mf{
-    height: 200px;
-    border-radius: 100%;
-    position: absolute; 
-    left: 65%;
-    transform: translate(-0px, -60%);
-    
-}
-.T2{
-    text-align: center;
-    font-family: "DM Serif Text", serif;
-    background-image: linear-gradient(to left, #28404d, white, #273f4b);
-    height: 100px;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.63);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
-    
-}
-.cursivo{
+
+.blur > h1{
     font-family: "Parisienne", cursive;
     font-size: 50px;
-    
-}
-.escrita{
-    background-color: rgba(0, 0, 0, 0.589); 
-    color: white;
-    max-width: 100vw;
-    height: 30.3vh;
-    padding: 13px;
-    font-size: 14px;
-    
 }
 
-.dois{
-    padding-top: 30px;
-}
+
+
+ 
