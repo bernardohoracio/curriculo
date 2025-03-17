@@ -54,6 +54,7 @@ header {
 }
 .p1 > p{
     padding: 30px;
+    font-size: 2em;
 }
 .p1 div > h1{
     font-family: "Parisienne", cursive;
@@ -93,4 +94,22 @@ p{
 .p2 > p{
     padding: 10px;
 }
- 
+section.obj{
+    background-color: white;
+    padding: 2px;
+    
+}
+div#obj{
+    
+    
+    text-align: justify;
+    background-image: linear-gradient(to left,#3B6275, #ABBEC2, #3B6275);
+    
+}
+ul{ 
+    padding-left: 25px;
+    
+    
+}
+
+    
