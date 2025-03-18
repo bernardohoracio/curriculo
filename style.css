@@ -7,7 +7,7 @@
     padding: 0px;
 }
 
-html, body{
+html{
     height: 98vh; 
     
     font-family: "DM Serif Text", serif;
@@ -58,25 +58,31 @@ header {
 }
 .p1 div > h1{
     font-family: "Parisienne", cursive;
-    font-size: 2em;
+    font-size: 1.2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.61);
     padding: 20px;
 }
+.blur > p{
+    font-size: 60px;
+} 
 .blur {
     background-color: rgba(0, 0, 0, 0.507);
     height: 200px;
     color: white;
-    font-size: 20px;
+    font-size: 3vw;
     
 }
 .blur1{
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
+    
 }
 p{
-    height: 20vh;
-    width:50vw;
+    
+    font-size: 1vw;
+    height: 22vh;
+    width:60vw;
     display: block;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.61);
@@ -94,22 +100,20 @@ p{
 .p2 > p{
     padding: 10px;
 }
-section.obj{
-    background-color: white;
-    padding: 2px;
-    
-}
-div#obj{
-    
-    
-    text-align: justify;
-    background-image: linear-gradient(to left,#3B6275, #ABBEC2, #3B6275);
-    
+
+
+.obj{
+
+    margin:140px;
 }
 ul{ 
     padding-left: 25px;
     
     
 }
-
-    
+h3, h1{
+    font-size: 2vw;
+}
+main{
+    height: 100vh;
+}
